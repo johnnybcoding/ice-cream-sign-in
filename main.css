@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.container {
+  background: #ffe6e6 url(img/ice.png) 100% 0 no-repeat;
+  height: 100vh;
+  width: 100vw;
+  font-family: montserrat, sans-serif;
+  color: #6a5c58;
+}
+
+.input-fields > form > input {
+  display: flex;
+  border: 1px solid #6a5c58;
+  border-radius: 25px;
+  height: 40px;
+  width: 500px;
+}
+
+.sign-in {
+  position: absolute;
+  bottom: 300px;
+  left: 50px;
+}
+
+.sign-in > h1 {
+  margin-bottom: 60px;
+}
+
+.sign-in h1 > h2 {
+  margin-bottom: 40px;
+}
+
+#username {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#password {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.links > p > a {
+  font-size: 20px;
+  color: #6a5c58;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 24px;
+}
+
+button {
+  color: #fff;
+  background: #811238;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  border: none;
+  height: 40px;
+  width: 500px;
+  cursor: pointer;
+}
+
+.input > [placeholder="username"] {
+  margin-left: 15px;
+}
